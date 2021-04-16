@@ -1,0 +1,140 @@
+
+body{
+    margin: 0;
+}
+header{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+   
+    
+}
+img{
+    width: 240px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+  header a{
+        text-decoration: none;
+        margin-right: 40px;
+       font-size: 20px;
+       color: rgb(89, 89, 92);
+     }
+    
+
+a:hover{
+    color:red;
+}
+button{
+    width: 200px;
+    border: solid 1px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color:#f5b942;
+}
+#btn-matricula{
+   padding: 10px;
+   border-radius: 20px;
+   background-color: #f5b942;
+   color: #000;
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;
+}
+#btn-matricula:hover{
+    background-color:#c99118;
+}
+section{
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+section img{
+ margin: 0;
+ width: 100%;
+ height: 400px;
+}
+#promo{
+    background-color: #000;
+    color: #fff;
+   justify-content: center;
+   font-size: 22px;
+   height: 80px;
+}
+#conheca{
+    margin-top: 30px;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("./images/sobre.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    align-items: center;
+    
+}
+
+span{
+    color: red;
+}
+.free{
+   width: 200px;
+   height: 140px;
+    margin-top: -12px;
+    margin-left: 50px;
+}
+#video{
+    width: 100%;
+    justify-content: center;
+}
+#unidades{
+    margin-top: 60px;
+    justify-content: center;
+    font-size: 30px;
+    background-image: url("./images/unidades.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+article{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.filial{
+    width: 300px;
+    height: 300px;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    border: solid 1px;
+    background: url("./images/unidade2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    align-items: center;
+   
+}
+.filial h2{
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+    
+}
+#btnsaiba{
+    border-radius: 20px;
+    background-color: red;
+    color:#fff;
+    width: 150px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}#btnsaiba:hover{
+    color:red;
+    background-color: #fff;
+}
